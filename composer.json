@@ -1,0 +1,6 @@
+{
+    "name": "joppuyo/html-markup-indenter",
+    "type": "wordpress-plugin",
+    "description": "Indents the HTML markup output by WordPress",
+    "license": "GPL-3.0-or-later"
+}
