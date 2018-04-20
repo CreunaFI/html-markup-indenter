@@ -2,7 +2,7 @@
 
 Don't you just hate it when your beautiful HTML markup is mutilated due to a templating language? (I'm looking at you, [Timber](https://www.upstatement.com/timber/))
 
-Use this plugin to indent the HTML markup output by WordPress using the [Dindent](https://github.com/gajus/dindent) library. Only does its thing when you are not logged in.
+Use this plugin to indent the HTML markup output by WordPress using the [Dindent](https://github.com/gajus/dindent) library. It only does its thing when you are not logged in.
 
 ## Installation
 
