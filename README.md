@@ -4,6 +4,11 @@ Don't you just hate it when your beautiful HTML markup is mutilated due to a tem
 
 Use this plugin to indent the HTML markup output by WordPress using the [Dindent](https://github.com/gajus/dindent) library. It only does its thing when you are not logged in.
 
+## Requirements
+
+* PHP 5.3 or greater
+* Mbstring extension
+
 ## Installation
 
 ### Composer (with [Bedrock](https://roots.io/bedrock/))

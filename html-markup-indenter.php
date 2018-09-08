@@ -3,7 +3,7 @@
 Plugin Name: HTML Markup Indenter
 Plugin URI: https://github.com/joppuyo/html-markup-cleaner
 Description: Indents the HTML markup output by WordPress
-Version: 1.0.1
+Version: 2.0.0
 Author: Johannes Siipola
 Author URI: https://siipo.la
 */
@@ -20,7 +20,7 @@ add_action('plugins_loaded', function () {
 });
 
 add_action('shutdown', function () {
-    if (html_markup_indenter_is_html() && !is_user_logged_in()) {
+    if (extension_loaded('mbstring') && html_markup_indenter_is_html() && !is_user_logged_in()) {
         $final = '';
         $levels = ob_get_level();
         for ($i = 0; $i < $levels; $i++) {
@@ -39,3 +39,11 @@ function html_markup_indenter_is_html() {
     }
     return false;
 }
+
+add_action('admin_notices', function() {
+    if (!extension_loaded('mbstring')) {
+        echo '<div class="notice notice-warning"><p>';
+        echo __("Mbstring PHP extension is not loaded. HTML Markup Indenter has been disabled.", 'html-markup-indenter');
+        echo '</p></div>';
+    }
+});
