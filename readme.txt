@@ -17,6 +17,11 @@ Indents the HTML markup output by WordPress using the [Dindent](https://github.c
 
 == Changelog ==
 
+= 2.0.1 =
+* Update version requirements
+* Update plugin URL
+* Update plugin description
+
 = 2.0.0 =
 * Make Mbstring extension a requirement
 

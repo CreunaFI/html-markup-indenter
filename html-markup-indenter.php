@@ -3,7 +3,7 @@
 Plugin Name: HTML Markup Indenter
 Plugin URI: https://github.com/CreunaFI/html-markup-indenter
 Description: Indents the HTML markup output by WordPress
-Version: 2.0.0
+Version: 2.0.1
 Author: Johannes Siipola
 Author URI: https://siipo.la
 */
