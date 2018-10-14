@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: HTML Markup Indenter
-Plugin URI: https://github.com/joppuyo/html-markup-cleaner
+Plugin URI: https://github.com/CreunaFI/html-markup-indenter
 Description: Indents the HTML markup output by WordPress
 Version: 2.0.0
 Author: Johannes Siipola
