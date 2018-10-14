@@ -4,6 +4,9 @@ Plugin Name: HTML Markup Indenter
 Plugin URI: https://github.com/CreunaFI/html-markup-indenter
 Description: Indents the HTML markup output by WordPress
 Version: 2.0.0
+Requires at least: 4.9.0
+Tested up to: 4.9.8
+Requires PHP: 5.3
 Author: Johannes Siipola
 Author URI: https://siipo.la
 */
