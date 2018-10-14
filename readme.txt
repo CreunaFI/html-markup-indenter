@@ -1,9 +1,9 @@
 === HTML Markup Indenter ===
 Contributors: joppuyo
 Tags: html, indent, clean, markup, pretty, prettifier
-Requires at least: 4.9.4
-Tested up to: 4.9.4
-Requires PHP: 5.3.0 or greater
+Requires at least: 4.9.0
+Tested up to: 4.9.8
+Requires PHP: 5.3
 License: License: GPLv3 or later
 
 Indents the HTML markup output by WordPress.
